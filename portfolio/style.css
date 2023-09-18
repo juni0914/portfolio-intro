@@ -41,7 +41,7 @@ ul{
 .nav-menu{
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 36px;
 }
 
 a{
@@ -50,7 +50,7 @@ a{
 }
 
 a:hover{
-    color: white;
+    color: rgb(252, 123, 145);
     transition: 0.3s;
 }
 
@@ -120,7 +120,7 @@ a:hover{
 
 .recent-menu{
     font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 700;
     color: #C2B4AB;
     
@@ -176,7 +176,9 @@ a:hover{
 
 .profile-section{
     display: flex;
+
     flex-direction: row;
+    
     justify-content: center;
     align-items: flex-start;
 
@@ -185,7 +187,7 @@ a:hover{
 
 
 #profile-picture{
-    width: 400px;
+    width: 460px;
     margin-right: 60px;
 }
 
@@ -193,12 +195,13 @@ a:hover{
     margin: 0px;
     font-family: 'Montserrat', sans-serif;
     font-size: 38px;
+    
 }
 
 .introduction>p{
     font-family: 'Noto Sans KR', sans-serif;
     font-weight: 300;
-    font-size: 16px;
+    font-size: 17px;
 
     margin-bottom: 40px;
 }
@@ -329,7 +332,7 @@ a[title="Flaticon"]:hover{
 
 .article-comment{
     font-family: 'Noto Sans KR', sans-serif;
-    font-size: 17px;
+    font-size: 20px;
     font-weight: 400;
 }
 
@@ -338,10 +341,8 @@ a[title="Flaticon"]:hover{
     height: content;
     float: right;
     margin-right: 10px;
-
-
     font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
+    font-size: 18px;
     background-color: transparent;
     border: none;
     outline: none;
